@@ -61,5 +61,5 @@ sudo usermod -a -G dialout $USER
 8. After the installation is complete, press the ***RESET*** button again
 9. There should be a new drive called ***CIRCUITPY*** in the file explorer
 10. Copy and paste the [.UF2 file](https://downloads.circuitpython.org/bin/espressif_esp32s3_devkitc_1_n32r8/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n32r8-en_US-8.2.10.uf2) file into the ***CIRCUITPY*** drive
-11. Install additional libraries by copying the [lib folder](../lib/)
+11. Install additional libraries by copying the [lib folder](../main/lib/)
  or from the Circuitpy website [here](https://circuitpython.org/libraries#:~:text=Bundles-,Bundle%20for%20Version%208.x,-This%20bundle%20is)
