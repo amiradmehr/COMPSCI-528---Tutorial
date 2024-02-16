@@ -1,6 +1,6 @@
 # COMPSCI-528: Mobile and Ubiquitous Computing
 
-This is a tutorial for COMPSCI 528 assignments.
+This is a setup tutorial for COMPSCI 528 assignments.
 
 
 # ESP-IDF Setup (Ubuntu)
@@ -31,7 +31,7 @@ cd ~/esp/esp-idf
 ## Set up the Environment
 
 ```bash
-Adding User to dialout or uucp on Linux
+# Adding User to dialout or uucp on Linux
 sudo usermod -a -G dialout $USER
 ```
 
@@ -59,7 +59,8 @@ sudo usermod -a -G dialout $USER
 11. Install additional libraries by copying the [lib folder](../main/lib/)
  or from the Circuitpy website [here](https://circuitpython.org/libraries#:~:text=Bundles-,Bundle%20for%20Version%208.x,-This%20bundle%20is)
 
-
+## Ad-ons
+[Putty for interactive REPL](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 ---
  ## Useful Links
 
@@ -69,3 +70,6 @@ These are useful links for the tutorial:
 - [Circuitpy online editor](https://code.circuitpython.org)
 - [EDC22 Day 1 Talk 15: CircuitPython for ESP32](https://www.youtube.com/watch?v=1eZQzn0PX-A)
 - [MPU6050 Datasheet Register Map](https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf) 
+- [TinyML with ESP32 and MicroPython](https://github.com/tkeyo/tinyml-esp)
+- [Model 2 Code Generator](https://github.com/BayesWitnesses/m2cgen/tree/master)
+- [Learn more about circuitpy](https://www.youtube.com/watch?v=1rkM0Ow8Pkc)
