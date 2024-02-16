@@ -2,13 +2,6 @@
 
 This is a tutorial for COMPSCI 528 assignments.
 
-## Useful Links
-
-These are useful links for the tutorial:
-
-- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
-- [Circuitpy online editor](https://code.circuitpython.org)
-- [EDC22 Day 1 Talk 15: CircuitPython for ESP32](https://www.youtube.com/watch?v=1eZQzn0PX-A)
 
 # ESP-IDF Setup (Ubuntu)
 
@@ -45,7 +38,9 @@ sudo usermod -a -G dialout $USER
 # ESP-IDF Setup (Windows)
 
 1. Download [ESP-IDF Tools Online Installer](https://dl.espressif.com/dl/idf-installer/esp-idf-tools-setup-online-2.24.exe?)
-2. 
+2. Apply fixes
+3. change the directory to `C:\esp\esp-idf`
+4. change the tools directory to `C:\esp\tools`
 
 # Circuit Python Setup
 
@@ -63,3 +58,14 @@ sudo usermod -a -G dialout $USER
 10. Copy and paste the [.UF2 file](https://downloads.circuitpython.org/bin/espressif_esp32s3_devkitc_1_n32r8/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n32r8-en_US-8.2.10.uf2) file into the ***CIRCUITPY*** drive
 11. Install additional libraries by copying the [lib folder](../main/lib/)
  or from the Circuitpy website [here](https://circuitpython.org/libraries#:~:text=Bundles-,Bundle%20for%20Version%208.x,-This%20bundle%20is)
+
+
+---
+ ## Useful Links
+
+These are useful links for the tutorial:
+
+- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
+- [Circuitpy online editor](https://code.circuitpython.org)
+- [EDC22 Day 1 Talk 15: CircuitPython for ESP32](https://www.youtube.com/watch?v=1eZQzn0PX-A)
+- [MPU6050 Datasheet Register Map](https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf) 
