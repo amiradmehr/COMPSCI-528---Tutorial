@@ -73,3 +73,4 @@ These are useful links for the tutorial:
 - [TinyML with ESP32 and MicroPython](https://github.com/tkeyo/tinyml-esp)
 - [Model 2 Code Generator](https://github.com/BayesWitnesses/m2cgen/tree/master)
 - [Learn more about circuitpy](https://www.youtube.com/watch?v=1rkM0Ow8Pkc)
+- [ESP32 How-to Series](https://www.youtube.com/watch?v=5IuZ-E8Tmhg&list=PLHX2-9M57aE5LVZnGwbo2cjnqvLqtu2OS)
