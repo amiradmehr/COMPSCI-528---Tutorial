@@ -66,7 +66,9 @@ sudo usermod -a -G dialout $USER
 
 These are useful links for the tutorial:
 
-- [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
+- [ESP-IDF Get Started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
+- [ESP-IDF API](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html)
+- [ ESP-IDF Beginners Guide to Key Concepts and Resources](https://www.youtube.com/watch?v=J8zc8mMNKtc&t=125s)
 - [Circuitpy online editor](https://code.circuitpython.org)
 - [EDC22 Day 1 Talk 15: CircuitPython for ESP32](https://www.youtube.com/watch?v=1eZQzn0PX-A)
 - [MPU6050 Datasheet Register Map](https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf) 
