@@ -48,15 +48,16 @@ sudo usermod -a -G dialout $USER
 
 1. Go to the [Circuitpy website](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r8/) and click on ***OPEN INSTALLER***
 2. Click on ***Full CircuitPython 8.2.10 Install***
-3. Connect the ESP32 to the computer via USB port
+3. Connect the ESP32 to the computer via **USB port** (Not UART)
 4. Press and hold the ***BOOT*** button on the ESP32
 5. Press and release the ***RESET*** button on the ESP32
 6. Release the ***BOOT*** button on the ESP32
-7. Now select the com port and click ***Install***
+7. Now select the com port (USB/JTAG) and click ***Install***
 8. After the installation is complete, press the ***RESET*** button again
-9. There should be a new drive called ***CIRCUITPY*** in the file explorer
-10. Copy and paste the [.UF2 file](https://downloads.circuitpython.org/bin/espressif_esp32s3_devkitc_1_n32r8/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n32r8-en_US-8.2.10.uf2) file into the ***CIRCUITPY*** drive
-11. Install additional libraries by copying the [lib folder](../main/lib/)
+9. After the flashing is done there should be a new drive called ***S3DKC1BOOT*** in the file explorers
+10. Copy and paste the [.UF2 file](https://downloads.circuitpython.org/bin/espressif_esp32s3_devkitc_1_n32r8/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n32r8-en_US-8.2.10.uf2) file into the ***S3DKC1BOOT*** drive
+11. After the file is copied, reset the ESP32 and the ***CIRCUITPY*** drive will appear
+12. Install additional libraries by copying the [lib folder](../main/lib/)
  or from the Circuitpy website [here](https://circuitpython.org/libraries#:~:text=Bundles-,Bundle%20for%20Version%208.x,-This%20bundle%20is)
 
 ## Ad-ons
