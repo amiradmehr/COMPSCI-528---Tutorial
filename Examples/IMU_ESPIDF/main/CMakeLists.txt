@@ -1,2 +1,4 @@
-idf_component_register(SRCS "i2c_simple_main.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS "main.c"
+                       INCLUDE_DIRS "."
+                       REQUIRES mpu6050 driver)
+

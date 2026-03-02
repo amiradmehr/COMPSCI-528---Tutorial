@@ -1,0 +1,61 @@
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Temporary / editor files ───────────────────────────────────────────────────
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# ── ESP-IDF: build output (large, fully reproducible) ─────────────────────────
+build/
+*.bin
+*.elf
+*.map
+*.o
+*.a
+sdkconfig.old
+flasher_args.json
+
+# ── ESP-IDF: managed components ───────────────────────────────────────────────
+# Commit the managed_components/ folder so the patched mpu6050 CMakeLists.txt
+# is preserved in the repo (the upstream component has a bug on IDF >= 5.3).
+# The lock file pins exact versions so collaborators get the same component.
+# managed_components/   <-- intentionally NOT ignored
+
+# ── ESP-IDF: local toolchain install (never commit) ───────────────────────────
+.espressif/
+
+# ── CMake generated files (inside build/, already ignored above) ───────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ── Python ────────────────────────────────────────────────────────────────────
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+venv/
+.venv/
+env/
+
+# ── Language server / IDE caches ──────────────────────────────────────────────
+.clangd/
+.ccls-cache/
+compile_commands.json
+
+# ── Windows artifacts ─────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.suo
+*.sln.docstates
